@@ -1,5 +1,7 @@
+import Wishlist from './components/Wishlist';
+
 function App() {
-  return <main>App</main>;
+  return <Wishlist />;
 }
 
 export default App;
