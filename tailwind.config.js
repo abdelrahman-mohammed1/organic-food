@@ -7,18 +7,18 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       fontSize: {
-        'display-01': ['3rem', { lineHeight: '1.2' }],  // Display 01
+        'display-01': ['3rem', { lineHeight: '1.2' }], // Display 01
         'heading-01': ['2.25rem', { lineHeight: '1.3' }], // Heading 01
-        'heading-02': ['2rem', { lineHeight: '1.3' }],  // Heading 02
+        'heading-02': ['2rem', { lineHeight: '1.3' }], // Heading 02
         'heading-03': ['1.75rem', { lineHeight: '1.4' }], // Heading 03
-        'heading-04': ['1.5rem', { lineHeight: '1.4' }],  // Heading 04
-        'heading-05': ['1.25rem', { lineHeight: '1.4' }],  // Heading 05
-        'body-xxl': ['1.125rem', { lineHeight: '1.5' }],   // Body XXL
-        'body-xl': ['1rem', { lineHeight: '1.5' }],   // Body XL
-        'body-large': ['0.875rem', { lineHeight: '1.5' }],  // Body Large
-        'body-medium': ['0.75rem', { lineHeight: '1.5' }],  // Body Medium
-        'body-small': ['0.625rem', { lineHeight: '1.4' }],  // Body Small
-        'body-tiny': ['0.5rem', { lineHeight: '1.4' }],     // Body Tiny
+        'heading-04': ['1.5rem', { lineHeight: '1.4' }], // Heading 04
+        'heading-05': ['1.25rem', { lineHeight: '1.4' }], // Heading 05
+        'body-xxl': ['1.125rem', { lineHeight: '1.5' }], // Body XXL
+        'body-xl': ['1rem', { lineHeight: '1.5' }], // Body XL
+        'body-large': ['0.875rem', { lineHeight: '1.5' }], // Body Large
+        'body-medium': ['0.75rem', { lineHeight: '1.5' }], // Body Medium
+        'body-small': ['0.625rem', { lineHeight: '1.4' }], // Body Small
+        'body-tiny': ['0.5rem', { lineHeight: '1.4' }], // Body Tiny
       },
       colors: {
         softPrimary: '#84D187',
