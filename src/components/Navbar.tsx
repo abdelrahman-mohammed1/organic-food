@@ -1,3 +1,8 @@
 export default function Navbar() {
-  return <div>Navbar</div>;
+  return (
+    <header className="mainPadding bg-gray-800">
+      <div>a</div>
+      <nav></nav>
+    </header>
+  );
 }
