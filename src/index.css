@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.mainPadding{
-  @apply px-[300px];
+.mainPadding {
+  @apply lg:px-[80px] xl:px-[120px] 2xl:px-[180px] 3xl:px-[300px];
+}
+.active {
+  @apply text-gray-900;
 }
