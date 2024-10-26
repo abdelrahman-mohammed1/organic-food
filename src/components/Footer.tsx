@@ -1,3 +1,10 @@
+import NewsletterSubscribe from './NewsletterSubscribe';
+
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <>
+      <NewsletterSubscribe />
+      <footer>Footer</footer>
+    </>
+  );
 }
