@@ -58,8 +58,8 @@ export default function Footer() {
               <h2 className="text-white font-medium text-[32px]">Ecobazar</h2>
             </div>
             <p className="text-gray-500 text-body-small font-400">
-              Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis
-              dui, eget bibendum magna congue nec.
+              Stay fresh with the latest organic deals and healthy tips! Sign up
+              for our newsletter and receive a 10% discount on your first order.
             </p>
             <div className="flex gap-4">
               <p className="text-body-small font-500 text-white border-b-primary border-b-2 pb-1">
@@ -81,7 +81,7 @@ export default function Footer() {
               </h2>
               <ul className="space-y-3">
                 {links.map((link) => (
-                  <li key={link.to}>
+                  <li key={link.text}>
                     <NavLink
                       to={link.to}
                       className={({ isActive }) =>
@@ -103,7 +103,7 @@ export default function Footer() {
           <p className="text-body-small font-400 text-gray-500">
             Ecobazar eCommerce © 2021. All Rights Reserved
           </p>
-          <img src={Payments} alt="Payments Examples" />
+          <img src={Payments} alt="Payments Examples" loading='lazy' />
         </section>
       </footer>
     </>

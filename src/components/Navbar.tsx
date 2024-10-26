@@ -60,7 +60,9 @@ export default function Navbar() {
           <Icon src={Cart} alt="Cart" className="w-8 h-8" />
         </li>
         <li className="max-sm:hidden ">
-          <Icon src={User} alt="Profile" className="w-8 h-8" />
+          <Link to="/account">
+            <Icon src={User} alt="Account" className="w-8 h-8" />
+          </Link>
         </li>
         <li className="lg3:hidden flex items-center">
           <button onClick={handleShowNav}>
