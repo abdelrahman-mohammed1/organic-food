@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import NewsletterSubscribe from './NewsletterSubscribe';
 import Logo from '../assets/LogoPlant.png';
 import Payments from '../assets/Payments.png';
