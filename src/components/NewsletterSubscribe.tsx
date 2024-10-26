@@ -21,7 +21,7 @@ export default function NewsletterSubscribe() {
       </div>
       <form
         onSubmit={handleSubscribe}
-        className="rounded-full bg-white flex flex-grow max-h-[50px]"
+        className="xs3:rounded-full bg-white flex max-xs3:flex-col flex-grow xs3:max-h-[50px]"
       >
         <label htmlFor="email" id="newsletter-heading" className="sr-only">
           Subscribe to our Newsletter
@@ -32,11 +32,11 @@ export default function NewsletterSubscribe() {
           name="email"
           required
           placeholder="Your email address"
-          className="flex-grow pl-6 pr-10 max-sm:text-xs rounded-full outline-none"
+          className="flex-grow max-xs3:py-5 pl-6 pr-10 max-xs3:text-xs xs3:rounded-full outline-none"
         />
         <button
           aria-label="Subscribe"
-          className="text-body-medium font-semibold bg-primary text-white rounded-full px-5 sm:px-10 py-4 outline-none -ml-5"
+          className="text-body-medium font-semibold bg-primary text-white xs3:rounded-full px-5 py-3 xs3:px-10 xs3:py-4 outline-none xs3:-ml-5"
         >
           Subscribe
         </button>

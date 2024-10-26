@@ -5,11 +5,13 @@ export default {
     extend: {
       screens: {
         xs: '375px',
+        'xs3': '515px',
         sm: '640px',
         sm2: '689px',
         md: '768px',
         lg: '1024px',
         lg2: '1090px',
+        lg3: '1160px',
         xl: '1280px',
         '2xl': '1440px',
         '3xl': '1920px',
