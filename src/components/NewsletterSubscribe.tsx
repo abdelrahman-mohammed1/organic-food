@@ -6,7 +6,7 @@ import Twitter from '../assets/icons/Twitter.svg';
 import Patreon from '../assets/icons/Patreon.svg';
 
 export default function NewsletterSubscribe() {
-  const handleSubscribe = (e) => {
+  const handleSubscribe = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   };
   return (

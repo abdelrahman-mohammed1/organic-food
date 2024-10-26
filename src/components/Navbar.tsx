@@ -33,7 +33,9 @@ export default function Navbar() {
         </li>
       </ul>
       <div>
-        <img loading='lazy' src={Logo} alt="Ecobazar Logo" />
+        <Link to='/'>
+          <img loading="lazy" src={Logo} alt="Ecobazar Logo" />
+        </Link>
       </div>
       <ul className="flex items-center text-gray-900 gap-5">
         <li className="flex items-center pr-5 gap-2">
