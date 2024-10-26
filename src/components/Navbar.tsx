@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import Icon from '../ui/Icon';
 import Telephone from '../assets/icons/Telephone.svg';
@@ -12,28 +12,30 @@ import Logo from '../assets/Logo.png';
 
 export default function Navbar() {
   return (
-    <nav className="mainPadding py-6 flex justify-between bg-white font-poppins font-medium">
-      <ul className="flex items-center text-gray-500 text-body-xl gap-7">
-        <li className="flex items-center">
+    <nav className="mainPadding py-6 flex justify-between bg-white font-poppins font-500">
+      <ul className="flex items-center text-gray-500 text-body-medium gap-7">
+        <li className="flex items-center hover:text-gray-900">
           <NavLink to="">Home</NavLink>
         </li>
-        <li className="flex items-center">
+        <li className="flex items-center hover:text-gray-900">
           <NavLink to="shop">Shop</NavLink>
           <MdKeyboardArrowDown size={24} />
         </li>
-        <li className="flex items-center">
+        <li className="flex items-center hover:text-gray-900">
           <NavLink to="pages">Pages</NavLink>
           <MdKeyboardArrowDown size={24} />
         </li>
-        <li className="flex items-center">
+        <li className="flex items-center hover:text-gray-900">
           <NavLink to="Blog">Blog</NavLink>
         </li>
-        <li className="flex items-center">
+        <li className="flex items-center hover:text-gray-900">
           <NavLink to="about-Us">About Us</NavLink>
         </li>
       </ul>
       <div>
-        <img src={Logo} alt="Ecobazar Logo" />
+        <Link to='/'>
+          <img loading="lazy" src={Logo} alt="Ecobazar Logo" />
+        </Link>
       </div>
       <ul className="flex items-center text-gray-900 gap-5">
         <li className="flex items-center pr-5 gap-2">
@@ -44,7 +46,9 @@ export default function Navbar() {
           <Icon src={Search} alt="Search" className="w-8 h-8" />
         </li>
         <li>
-          <Icon src={Heart} alt="Heart" className="w-8 h-8" />
+          <Link to="/wishlist">
+            <Icon src={Heart} alt="Heart" className="w-8 h-8" />
+          </Link>
         </li>
         <li>
           <Icon src={Cart} alt="Cart" className="w-8 h-8" />

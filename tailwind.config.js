@@ -6,12 +6,21 @@ export default {
       screens: {
         xs: '375px',
         sm: '640px',
+        sm2: '689px',
         md: '768px',
         lg: '1024px',
+        lg2: '1090px',
         xl: '1280px',
         '2xl': '1440px',
         '3xl': '1920px',
         
+      },
+      fontWeight: {
+        '400': 400,
+        '500': 500,
+        '600': 600,
+        '700': 700,
+        '800': 800,
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
@@ -23,12 +32,12 @@ export default {
         'heading-03': ['1.75rem', { lineHeight: '1.4' }], // Heading 03
         'heading-04': ['1.5rem', { lineHeight: '1.4' }], // Heading 04
         'heading-05': ['1.25rem', { lineHeight: '1.4' }], // Heading 05
-        'body-xxl': ['1.125rem', { lineHeight: '1.5' }], // Body XXL
-        'body-xl': ['1rem', { lineHeight: '1.5' }], // Body XL
-        'body-large': ['0.875rem', { lineHeight: '1.5' }], // Body Large
-        'body-medium': ['0.75rem', { lineHeight: '1.5' }], // Body Medium
-        'body-small': ['0.625rem', { lineHeight: '1.4' }], // Body Small
-        'body-tiny': ['0.5rem', { lineHeight: '1.4' }], // Body Tiny
+        'body-xxl': ['1.5rem', { lineHeight: '1.5' }], // Body XXL
+        'body-xl': ['1.125rem', { lineHeight: '1.5' }], // Body XL
+        'body-large': ['1remrem', { lineHeight: '1.5' }], // Body Large
+        'body-medium': ['0.875rem', { lineHeight: '1.5' }], // Body Medium
+        'body-small': ['0.75rem', { lineHeight: '1.4' }], // Body Small
+        'body-tiny': ['0.625rem', { lineHeight: '1.4' }], // Body Tiny
       },
       colors: {
         softPrimary: '#84D187',
